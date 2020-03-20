@@ -1,0 +1,11 @@
+server:
+  port: 1002
+
+spring:
+  application:
+    name: microservice-hi
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
